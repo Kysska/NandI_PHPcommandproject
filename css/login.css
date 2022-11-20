@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    margin: 10px 0px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+input{
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+button{
+    padding: 10px;
+    background-color: rgb(142, 166, 186);
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+.msg{
+    border: 3px solid  rgb(255, 108, 45) ;
+    padding: 10px;
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.btn {
+    background: #8C959D; 
+    color: #fff;
+    padding: 9px;
+    text-decoration: none;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.p_prof{
+    margin: 2px 0px;
+    font-weight: 300;
+}
